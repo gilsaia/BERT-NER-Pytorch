@@ -267,5 +267,5 @@ class ConllProcessor(DataProcessor):
 ner_processors = {
     "cner": CnerProcessor,
     'cluener':CluenerProcessor,
-    'conll':ConllProcessor
+    'conll2003':ConllProcessor
 }
