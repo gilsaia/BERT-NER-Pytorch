@@ -1,8 +1,8 @@
 CURRENT_DIR=`pwd`
-export BERT_BASE_DIR=$CURRENT_DIR/prev_trained_model/bert-base-chinese
+export BERT_BASE_DIR=bert-large-cased
 export DATA_DIR=$CURRENT_DIR/datasets
 export OUTPUR_DIR=$CURRENT_DIR/outputs
-TASK_NAME="cner"
+TASK_NAME="conll2003"
 
 python run_ner_softmax.py \
   --model_type=bert \
